@@ -1,15 +1,14 @@
 import React from "react"
 import styled, { css } from 'styled-components'
-import Input from "./components/input/Input"
-
+import RegisterInput from "./components/input/RegisterInput"
 
 export default function App() {
   return (
     <MainDiv>
       <img src="login-photo.png" />
       <LoginDiv>
-        <Heading>Login</Heading>
-        <Input />
+        <Heading>Register</Heading>
+        <RegisterInput />
       </LoginDiv>
     </MainDiv>
   );
