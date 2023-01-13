@@ -8,10 +8,11 @@ img {
     width: 45%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   form {font-size: 0.7rem;}
   img {
     width: 100%;
+    display: block;
   }
 }
 * {
@@ -32,4 +33,8 @@ a {
   font-style: normal;
   font-weight: 200;
   text-decoration: none;
+}
+
+input[type="checkbox"] {
+  vertical-align: middle;
 }

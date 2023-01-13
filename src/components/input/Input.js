@@ -82,7 +82,7 @@ position: absolute;
 left: 96%;
 top: 32%;
 cursor: pointer;
-@media (max-width: 600px) {
+@media (max-width: 800px) {
  left: 92%;
 }
 `
