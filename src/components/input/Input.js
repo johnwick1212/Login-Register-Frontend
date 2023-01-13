@@ -4,6 +4,7 @@ import InputEle from "../InputBox"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import {Link} from "react-router-dom"
+import "../App.css"
 const eye = <FontAwesomeIcon icon={faEye} />;
 
 export default function Input() {
@@ -22,9 +23,11 @@ export default function Input() {
                <p>Login ID</p>
                <InputEle type="text" placeholder="Enter the Login ID" value="" />
                <p>Password</p>
-               <InputEle type={passwordShown ? "text" : "password"} placeholder="Enter Password" value="" />
-            </Label>
+               <Div><InputEle type={passwordShown ? "text" : "password"} placeholder="Enter Password" value="" />
                <Img><i onClick={togglePasswordVisiblity}>{eye}</i></Img>
+               </Div>
+            </Label>
+               
             <Label1>
             
             <Remember>
@@ -37,13 +40,17 @@ export default function Input() {
             </Label1>
             <OuterDiv>
               <Btn>Login</Btn>
-              <Below>Don't have an account? <Link to="/register">Register Here</Link></Below>    
+              <Below>Don't have an account? <Link to="/Login-Register-Frontend/Register">Register Here</Link></Below>    
             </OuterDiv>
         </form>
         
         </Container>
     )
 }
+
+const Div = styled.div`
+position: relative;
+`
 
 const Remember = styled.div`
 display: flex;
@@ -70,10 +77,11 @@ font-size: 20px;
 const Below = styled.div`
 `
 const Img = styled.i`
+width: 10%;
 position: absolute;
-right: 0;
+left: 97%;
 margin-right: 95px;
-margin-top: -34px; 
+margin-top: -40px; 
 cursor: pointer;
 `
 
@@ -90,23 +98,4 @@ const Label = styled.div`
 const Label1 = styled.div`
 margin-top: 20px;
 display: block;
-`
-const InputText = styled.div`
-  input: {
-    min-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 60px;
-    border-radius: 10px;
-  }
-`
-const InputPassword = styled.div`
-  input: {
-    min-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 60px;
-    border-radius: 10px;
-  }
-  
 `

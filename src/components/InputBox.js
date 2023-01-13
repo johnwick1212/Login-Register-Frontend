@@ -6,7 +6,9 @@ export default function InputBox({type, placeholder}) {
 }
 
 const StyledInput = styled.input`
-    min-width: 100%;
+    width: 95%;
     height: 40px;
     border-radius: 10px;
+    padding: 2% 2.5%;
+    font-size: 1.2rem;
 `
