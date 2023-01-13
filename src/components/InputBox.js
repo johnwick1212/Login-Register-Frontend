@@ -11,4 +11,9 @@ const StyledInput = styled.input`
     border-radius: 10px;
     padding: 2% 2.5%;
     font-size: 1.2rem;
+    @media (max-width: 600px) {
+        &::placeholder {
+            font-size: 0.9rem;
+        }
+    }
 `

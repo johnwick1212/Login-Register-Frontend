@@ -7,3 +7,10 @@ img {
     display: block;
     width: 45%;
 }
+
+@media (max-width: 600px) {
+  form {font-size: 0.7rem;}
+  img {
+    width: 100%;
+  }
+}

@@ -22,7 +22,7 @@ width: 95vw;
 justify-content: space-between;
 font-family: 'poppins';
 flex-wrap: wrap;
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   justify-content: center;
 }
 `
@@ -32,7 +32,7 @@ display: flex;
 flex-direction: column;
 width: 50vw;
 height: 100%;
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   width: 85vw;
 }
 `

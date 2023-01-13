@@ -64,12 +64,12 @@ align-items: center;
 `
 
 const Btn = styled.button`
-width: 538px;
+width: 90%;
 height: 56px;
 background: #1575A7;
 border-radius: 8px;
 color: white;
-margin: 50px 0 50px 0;
+margin: 50px auto;
 cursor: pointer;
 font-size: 20px;
 `
@@ -79,10 +79,12 @@ const Below = styled.div`
 const Img = styled.i`
 width: 10%;
 position: absolute;
-left: 97%;
-margin-right: 95px;
-margin-top: -40px; 
+left: 96%;
+top: 32%;
 cursor: pointer;
+@media (max-width: 600px) {
+ left: 92%;
+}
 `
 
 const Container = styled.div`
