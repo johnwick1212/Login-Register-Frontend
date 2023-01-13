@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.67b724da.css","mappings":"AAAA,KACE,iBACF,CAEA,IAEI,aAAc,CADd,gBAGJ","sources":["components/App.css"],"sourcesContent":["form {\r\n  position: relative;\r\n}\r\n\r\nimg {\r\n    object-fit: cover;\r\n    display: block;\r\n\r\n}\r\n"],"names":[],"sourceRoot":""}
