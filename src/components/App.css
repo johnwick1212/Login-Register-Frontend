@@ -5,5 +5,5 @@ form {
 img {
     object-fit: cover;
     display: block;
-
+    width: 45%;
 }
