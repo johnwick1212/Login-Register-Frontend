@@ -20,9 +20,9 @@ export default function Input() {
         
         <form>
             <Label>
-               <p>Login ID</p>
+               <p className="password">Login ID</p>
                <InputEle type="text" placeholder="Enter the Login ID" value="" />
-               <p>Password</p>
+               <p className="password">Password</p>
                <Div><InputEle type={passwordShown ? "text" : "password"} placeholder="Enter Password" value="" />
                <Img><i onClick={togglePasswordVisiblity}>{eye}</i></Img>
                </Div>

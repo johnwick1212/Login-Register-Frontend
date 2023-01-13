@@ -27,11 +27,11 @@ export default function Input() {
             <Label>
                <p>Email ID</p>
                <InputEle type="text" placeholder="Enter the Login ID" value="" />
-               <p>New Password</p>
+               <p  className="password">New Password</p>
                <Div><InputEle type={passwordShown2 ? "text" : "password"} placeholder="Enter Password" value="" />
                <Img><i onClick={togglePasswordVisiblity2}>{eye}</i></Img>
                </Div>
-               <p>Confirm Password</p>
+               <p  className="password">Confirm Password</p>
                <Div><InputEle type={passwordShown ? "text" : "password"} placeholder="Enter Password" value="" />
                <Img><i onClick={togglePasswordVisiblity}>{eye}</i></Img>
                </Div>
